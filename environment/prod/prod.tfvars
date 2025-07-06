@@ -1,0 +1,10 @@
+ami_id              = "ami-0d03cb826412c6b0f"
+instance_type       = "t3.micro"
+key_name            = "tanuj-ec2-key"
+ec2_security_groups = ["sg-0833fdf047bb8e150"]
+ec2_subnet_id       = "subnet-066ec2d046612e19b"
+ec2_volume_size     = 10
+ec2_volume_type     = "gp3"
+ec2_name            = "prod-ec2-instance"
+env_name            = "PROD"
+bkt_name            = "prod-s3-tf-tanuj"
